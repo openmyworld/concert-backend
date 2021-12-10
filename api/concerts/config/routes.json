@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/concerts",
+      "handler": "concerts.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/concerts/me",
+      "handler": "concerts.me",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/concerts/count",
+      "handler": "concerts.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/concerts/:id",
+      "handler": "concerts.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/concerts",
+      "handler": "concerts.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/concerts/:id",
+      "handler": "concerts.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/concerts/:id",
+      "handler": "concerts.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
