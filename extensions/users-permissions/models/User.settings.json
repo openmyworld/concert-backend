@@ -59,10 +59,6 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "events": {
-      "via": "user",
-      "collection": "events"
-    },
     "concerts": {
       "via": "user",
       "collection": "concerts"
